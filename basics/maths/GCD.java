@@ -1,3 +1,4 @@
+package maths;
 public class GCD {
 
     //O(min(n1,n2))

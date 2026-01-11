@@ -1,3 +1,4 @@
+package maths;
 public class ArmstrongNumber {
     public boolean isArmstrong(int n){
         int digits = (int) Math.log10(n) + 1;
