@@ -1,3 +1,4 @@
+package maths;
 public class ExtractionOfDigits {
 
     // Time Complexity O(log10(n))

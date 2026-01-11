@@ -1,3 +1,4 @@
+package maths;
 public class PalindromeNumber {
     public static boolean isPalindrome(int x){
         return reverseInteger(x) == x;
