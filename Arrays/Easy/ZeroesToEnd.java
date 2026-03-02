@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 public class ZeroesToEnd {
     public static void moveZeroesToEnd(int arr[]){

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Medium;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -44,9 +44,9 @@ public class TwoSum {
         return arr;
     }
 
-    public static int[] twoSum4(int[] nums,int target){
+    public static int[] optimalSum(int[] nums,int target){
        int[][] numsWithIndex = new int[nums.length][2];
-       int arr[] = {-1,-1};
+       int[] arr = {-1,-1};
        for(int i=0;i< nums.length;i++){
            numsWithIndex[i][0] = nums[i];
            numsWithIndex[i][1] = i;
@@ -59,6 +59,7 @@ public class TwoSum {
            if(sum == target){
                arr[0] = numsWithIndex[left][1];
                arr[1] = numsWithIndex[right][1];
+               break;
            }else if(sum>target){
                right--;
            }else{
@@ -70,7 +71,7 @@ public class TwoSum {
 
     public static void main(String[] args) {
         int arr[] = {3,2,4};
-        int ans[] = twoSum4(arr,6);
+        int ans[] = optimalSum(arr,6);
         for(int i: ans){
             System.out.print(i + " ");
         }

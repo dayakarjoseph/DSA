@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.sql.SQLOutput;
+package Arrays.Easy;
 
 public class ArraySorted {
     public static boolean isArraySorted(int arr[]){
