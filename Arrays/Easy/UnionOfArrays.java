@@ -1,9 +1,7 @@
-package Arrays;
+package Arrays.Easy;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 public class UnionOfArrays {
     public static ArrayList<Integer> unionOfArrays(int[] arr1, int[] arr2){
